@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+}
+
+svg {
+  height: 100px;
+  width: 120px;
+  fill: white;
+}
+
+.color-change {
+  /* Default color */
+  fill: #fff;
+}
+
+.color-change.satu {
+  /* Red color */
+  fill: #9DCDBC;
+}
+
+.color-change.dua {
+  /* Green color */
+  fill: #5C7358;
+}
+
+.color-change.tiga {
+  /* Green color */
+  fill: #8B6697;
+}
+
+.color-change.empat {
+  /* Green color */
+  fill: #629A3D;
+}
+
+.color-change.lima {
+  /* Green color */
+  fill: #DFA352;
+}
+
+.color-change.enam {
+  /* Green color */
+  fill: #6F7E94;
+}
+
+.color-change.tujuh {
+  /* Green color */
+  fill: #32ACC3;
+}
+
+.color-change.delapan {
+  /* Green color */
+  fill: #908263;
+}
+
+.color-change.sembilan {
+  /* Green color */
+  fill: #5D58CE;
+}
+
+.color-change.sepuluh {
+  /* Green color */
+  fill: #3FAC90;
+}
+
+.color-change.sebelas {
+  /* Green color */
+  fill: #6A9E6F;
+}
+
+.color-change.duabelas {
+  /* Green color */
+  fill: #5F9CEB;
+}
+
+.color-change.tigabelas {
+  /* Green color */
+  fill: #35AC5B;
+}
+
+.color-change.empatbelas {
+  /* Green color */
+  fill: #8E51B4;
+}
+
+.color-change.limabelas {
+  /* Green color */
+  fill: #91CEC1;
+}
+
+.color-change.enambelas {
+  /* Green color */
+  fill: #3D3ABB;
+}
+
+.color-change.tujuhbelas {
+  /* Green color */
+  fill: #98CC90;
+}
+
+.color-change.delapanbelas {
+  /* Green color */
+  fill: #39E279;
+}
+
+.color-change.sembilanbelas {
+  /* Green color */
+  fill: #F6C5A1;
+}
+
+.color-change.duapuluh {
+  /* Green color */
+  fill: #fff;
+}
+
+.ball {
+  position: relative;
+  /*   background-image: url("data:image/jpeg;base64,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"); */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+
+  animation-name: pingpong;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes pingpong {
+  0% {
+    transform: translateY(0vh);
+  }
+
+  25% {
+    transform: translateY(80vh) translateX(20vw) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(0vh) translateX(40vw) rotate(0deg);
+  }
+
+  75% {
+    transform: translateY(80vh) translateX(60vw) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(0vh) translateX(80vw) rotate(0deg);
+  }
+}
